@@ -16250,10 +16250,22 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+footer {
+  padding: 100px;
+}
+
+footer .icones a {
+  margin: 0 40px;
+}
+
+footer .icones a i {
+  font-size: 50px;
+  color: #AAAAAA;
+}
+
 header {
-  background-image: url("../img/banner.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg) fixed;
   background-size: cover;
-  background-attachment: fixed;
   color: white;
   padding-bottom: 300px;
 }
@@ -16389,8 +16401,95 @@ header .titre span:nth-of-type(2) {
 .sectThree .interieur h2 {
   color: #B2AAAA;
   font-weight: normal;
+  margin-bottom: 80px;
 }
 
-.sectThree .shloob {
+.sectThree .rowski {
   display: flex;
+}
+
+.sectThree .rowski .shloob {
+  display: flex;
+}
+
+.sectThree .rowski .shloob .shloobL {
+  text-align: right;
+}
+
+.sectThree .rowski .shloob .shloobL h4 {
+  color: #484848;
+}
+
+.sectThree .rowski .shloob .shloobL h5 {
+  color: #AAAAAA;
+  font-weight: normal;
+}
+
+.sectThree .rowski .shloob .shloobL span {
+  font-size: 20px;
+  color: #66667F;
+}
+
+.sectThree .rowski .shloob .shloobR img {
+  border: 8px solid #E3E3E3;
+  border-radius: 100%;
+  height: 200px;
+  margin: 0 50px 40px 30px;
+}
+
+.sectThree .rowski .skeet {
+  display: flex;
+}
+
+.sectThree .rowski .skeet .skeetL {
+  text-align: left;
+  order: 2;
+}
+
+.sectThree .rowski .skeet .skeetL h4 {
+  color: #484848;
+}
+
+.sectThree .rowski .skeet .skeetL h5 {
+  color: #AAAAAA;
+  font-weight: normal;
+}
+
+.sectThree .rowski .skeet .skeetL span {
+  font-size: 19px;
+  color: #66667F;
+}
+
+.sectThree .rowski .skeet .skeetR {
+  order: 1;
+}
+
+.sectThree .rowski .skeet .skeetR img {
+  border: 8px solid #E3E3E3;
+  border-radius: 100%;
+  height: 200px;
+  margin: 0 30px 0 0;
+}
+
+.sectFour {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg) fixed;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.sectFour h1 {
+  color: white;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.sectFour h2 {
+  color: #AAAAAA;
+  margin-bottom: 70px;
+}
+
+.sectFour .btn {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px 50px;
 }
