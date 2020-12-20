@@ -6,4 +6,33 @@ footer
             i
                 font-size: 50px
                 color: #AAAAAA
+    .copyright
+        display: flex
+        color: #AAAAAA
+        justify-content: center
+        padding-top: 50px
+        align-items: center
+        span
+            font-size: 19px
+            &:first-of-type
+                padding-right: 20px
+            &:nth-of-type(2)
+                border-left: solid 1px #DCDCDC
+                border-right: solid 1px #DCDCDC
+                padding: 6px 20px
+            &:nth-of-type(3)
+                padding-left: 20px
+
+@media screen and (min-width: 375px) and (max-width: 767px)
+    footer
+        .icones
+            display: flex
+            justify-content: center
+            a
+                margin: 0 15px
+        .copyright
+            span
+                font-size: 10px
+            
+
     

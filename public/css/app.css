@@ -16263,6 +16263,45 @@ footer .icones a i {
   color: #AAAAAA;
 }
 
+footer .copyright {
+  display: flex;
+  color: #AAAAAA;
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center;
+}
+
+footer .copyright span {
+  font-size: 19px;
+}
+
+footer .copyright span:first-of-type {
+  padding-right: 20px;
+}
+
+footer .copyright span:nth-of-type(2) {
+  border-left: solid 1px #DCDCDC;
+  border-right: solid 1px #DCDCDC;
+  padding: 6px 20px;
+}
+
+footer .copyright span:nth-of-type(3) {
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  footer .icones {
+    display: flex;
+    justify-content: center;
+  }
+  footer .icones a {
+    margin: 0 15px;
+  }
+  footer .copyright span {
+    font-size: 10px;
+  }
+}
+
 header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg) fixed;
   background-size: cover;
@@ -16308,6 +16347,21 @@ header .titre span {
 
 header .titre span:nth-of-type(2) {
   margin-bottom: 40px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  header {
+    text-align: center;
+  }
+  header nav .liens {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header nav .liens a {
+    margin-left: 20px;
+  }
 }
 
 .sectOne {
@@ -16370,6 +16424,11 @@ header .titre span:nth-of-type(2) {
 .sectTwo .divCards .card {
   padding: 0;
   margin: 30px;
+}
+
+.sectTwo .divCards .card img {
+  height: 500px;
+  width: 600px;
 }
 
 .sectTwo .divCards .card .card-body {
@@ -16456,7 +16515,7 @@ header .titre span:nth-of-type(2) {
 }
 
 .sectThree .rowski .skeet .skeetL span {
-  font-size: 19px;
+  font-size: 20px;
   color: #66667F;
 }
 
@@ -16492,4 +16551,82 @@ header .titre span:nth-of-type(2) {
   font-size: 25px;
   font-weight: bold;
   padding: 15px 50px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .sectOne .container .row div span:nth-of-type(2) {
+    margin-bottom: 50px;
+  }
+  .sectTwo .divCards .card img {
+    width: 313px;
+    height: 230px;
+  }
+  .sectThree {
+    padding: 100px 0 100px 20px;
+  }
+  .sectThree .interieur .rowski {
+    flex-direction: column;
+  }
+  .sectThree .interieur .rowski .shloob {
+    flex-direction: column;
+  }
+  .sectThree .interieur .rowski .shloob .shloobL {
+    order: 2;
+    text-align: left;
+  }
+  .sectThree .interieur .rowski .shloob .shloobL span {
+    font-size: 15px;
+  }
+  .sectThree .interieur .rowski .shloob .shloobR {
+    order: 1;
+  }
+  .sectThree .interieur .rowski .shloob .shloobR img {
+    margin: 50px 0 50px 0;
+  }
+  .sectThree .interieur .rowski .skeet {
+    flex-direction: column;
+  }
+  .sectThree .interieur .rowski .skeet .skeetL span {
+    font-size: 15px;
+  }
+  .sectThree .interieur .rowski .skeet .skeetR img {
+    margin: 50px 0 50px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sectOne .container .row div span:nth-of-type(2) {
+    margin-bottom: 50px;
+  }
+  .sectThree {
+    padding: 100px 0 100px 20px;
+  }
+  .sectThree .interieur .rowski {
+    flex-direction: column;
+  }
+  .sectThree .interieur .rowski .shloob {
+    flex-direction: column;
+  }
+  .sectThree .interieur .rowski .shloob .shloobL {
+    order: 2;
+    text-align: left;
+  }
+  .sectThree .interieur .rowski .shloob .shloobL span {
+    font-size: 15px;
+  }
+  .sectThree .interieur .rowski .shloob .shloobR {
+    order: 1;
+  }
+  .sectThree .interieur .rowski .shloob .shloobR img {
+    margin: 50px 0 50px 0;
+  }
+  .sectThree .interieur .rowski .skeet {
+    flex-direction: column;
+  }
+  .sectThree .interieur .rowski .skeet .skeetL span {
+    font-size: 15px;
+  }
+  .sectThree .interieur .rowski .skeet .skeetR img {
+    margin: 50px 0 50px 0;
+  }
 }
